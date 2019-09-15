@@ -114,6 +114,7 @@ cdvPluginPostBuildExtras.add({
     }
 
     android {
+        flavorDimensions "default"
         if (xwalk64bit != null) {
             productFlavors {
                 x86_64 {
